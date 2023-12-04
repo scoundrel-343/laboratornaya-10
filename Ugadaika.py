@@ -11,15 +11,17 @@ def user_interaction():
             k = int(input("Введите количество попыток: "))
             if N < 1 or k < 1:
                 print("Некорректный ввод. Пожалуйста, введите положительные числа, которые больше 0.")
+                logging.error(f"! Ошибка! Некорректный ввод: {N}, {k}")
             else:
                 return N, k
         except ValueError:
             print("! Ошибка ! Пожалуйста, введите натуральные числа.")
+            logging.error(f"! Ошибка! Некорректный ввод: {N}, {k}")
 
 # Функция для запуска игры
 def play_guessing_game(N, k):
     secret_number = random.randint(1, N)
-    logging.info(f'Компьютер загадал число от 1 до {N} ({secret_number}). У пользователя {k} попыток.')
+    logging.info(f'Компьютер загадал число от 1 до {N} ({secret_number}). Количество попыток: {k}')
 
     print(f"Компьютер загадал число от 1 до {N}. Количество попыток: {k}.")
 
@@ -28,11 +30,11 @@ def play_guessing_game(N, k):
         logging.info(f'Попытка {attempt}: {guess}')
 
         if guess < secret_number:
-            print("Больше!")
-            logging.info("Больше!")
+            print("Загаданное число больше!")
+            logging.info("Загаданное число больше!")
         elif guess > secret_number:
-            print("Меньше!")
-            logging.info("Меньше!")
+            print("Загаданное число меньше!")
+            logging.info("Загаданное число меньше!")
         else:
             print("Вы угадали!")
             logging.info('Игра завершена: победа')
