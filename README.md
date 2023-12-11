@@ -15,7 +15,7 @@
 # Инструкция по работе
 Программа получает на ввод максимальное число для загадывания и количество попыток, загадывает число, после каждой попытки пользователя угадать сообщает меньше или больше загаданное число, в конце игры выводит текст с результатом (или «Вы угадали», или «Попытки закончились»), в процессе выполнения логирует вводимые и выводимые данные, а также дату и время действий.
 
-![image](https://github.com/scoundrel-343/laboratornaya-10/assets/146209505/d83a8c21-f5c9-4895-890b-2f7d47ce0161)
-![image](https://github.com/scoundrel-343/laboratornaya-10/assets/146209505/c8e3572f-2691-41b4-9efa-9ebd653d70bd)
-![image](https://github.com/scoundrel-343/laboratornaya-10/assets/146209505/39365414-89b0-47e1-b50d-8acdc3a97472)
-![image](https://github.com/scoundrel-343/laboratornaya-10/assets/146209505/2a61fb57-e20b-474e-98a5-0e74dbfac99a)
+![image](https://github.com/scoundrel-343/laboratornaya-10/assets/146209505/e2c26498-0733-4d6d-abb0-7cf43893dfd4)
+![image](https://github.com/scoundrel-343/laboratornaya-10/assets/146209505/709a591a-a9f4-4f5f-acc4-17d5b4672de7)
+![image](https://github.com/scoundrel-343/laboratornaya-10/assets/146209505/89b839a3-2737-496d-ae4d-7feb9cb6b967)
+
